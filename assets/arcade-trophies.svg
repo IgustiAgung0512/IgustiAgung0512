@@ -1,0 +1,177 @@
+<svg fill="none" viewBox="0 0 900 240" width="100%" height="240" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;family=Orbitron:wght@500;700;900&amp;display=swap');
+
+        .shelf-container {
+          width: 100%;
+          height: 240px;
+          background: #060515;
+          background-image: 
+            radial-gradient(circle at 50% 0%, rgba(138, 43, 226, 0.3) 0%, transparent 60%),
+            linear-gradient(rgba(0, 245, 255, 0.04) 1px, transparent 1px),
+            linear-gradient(90deg, rgba(0, 245, 255, 0.04) 1px, transparent 1px);
+          background-size: 100% 100%, 20px 20px, 20px 20px;
+          border-radius: 14px;
+          border: 1px solid #00f5ff;
+          box-shadow: 0 0 25px rgba(0, 245, 255, 0.25), inset 0 0 30px rgba(138, 43, 226, 0.2);
+          box-sizing: border-box;
+          padding: 16px 20px;
+          font-family: 'Orbitron', monospace;
+          color: #fff;
+          position: relative;
+          overflow: hidden;
+        }
+
+        .header {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          border-bottom: 1px dashed rgba(0, 245, 255, 0.4);
+          padding-bottom: 8px;
+          margin-bottom: 14px;
+        }
+
+        .header-title {
+          font-family: 'Press Start 2P', cursive;
+          font-size: 11px;
+          color: #00f5ff;
+          text-shadow: 0 0 8px #00f5ff;
+          letter-spacing: 1px;
+        }
+
+        .trophies-grid {
+          display: grid;
+          grid-template-columns: repeat(6, 1fr);
+          gap: 12px;
+          align-items: center;
+        }
+
+        .trophy-card {
+          background: rgba(15, 23, 42, 0.85);
+          border: 1px solid rgba(138, 43, 226, 0.4);
+          border-radius: 10px;
+          padding: 12px 6px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+          position: relative;
+          transition: transform 0.3s;
+        }
+
+        .trophy-icon {
+          font-size: 26px;
+          margin-bottom: 8px;
+          filter: drop-shadow(0 0 8px #ffd700);
+          animation: float-icon 3s ease-in-out infinite alternate;
+        }
+
+        @keyframes float-icon {
+          0% { transform: translateY(0); }
+          100% { transform: translateY(-4px); }
+        }
+
+        .trophy-rank {
+          font-family: 'Press Start 2P', cursive;
+          font-size: 8px;
+          color: #ffd700;
+          text-shadow: 0 0 5px #ffd700;
+          margin-bottom: 4px;
+        }
+
+        .trophy-name {
+          font-size: 10px;
+          font-weight: 700;
+          color: #e2e8f0;
+          line-height: 1.2;
+          margin-bottom: 4px;
+        }
+
+        .trophy-desc {
+          font-size: 8px;
+          color: #94a3b8;
+          letter-spacing: 0.5px;
+        }
+
+        .badge-unlocked {
+          position: absolute;
+          top: -6px;
+          right: -6px;
+          background: #22c55e;
+          color: #000;
+          font-size: 7px;
+          font-weight: 900;
+          padding: 2px 4px;
+          border-radius: 4px;
+          box-shadow: 0 0 6px #22c55e;
+        }
+      </style>
+
+      <div class="shelf-container">
+        <div class="header">
+          <div class="header-title">🏆 ARCADE TROPHIES // UNLOCKED ACHIEVEMENTS</div>
+          <div style="font-size: 11px; color: #ffd700; font-weight: 700;">★ 6/6 UNLOCKED ★</div>
+        </div>
+
+        <div class="trophies-grid">
+          <!-- Trophy 1 -->
+          <div class="trophy-card">
+            <span class="badge-unlocked">UNLOCKED</span>
+            <div class="trophy-icon">🌌</div>
+            <div class="trophy-rank">RANK: S</div>
+            <div class="trophy-name">GALAXY PIONEER</div>
+            <div class="trophy-desc">Code Explorer</div>
+          </div>
+
+          <!-- Trophy 2 -->
+          <div class="trophy-card">
+            <span class="badge-unlocked">UNLOCKED</span>
+            <div class="trophy-icon" style="filter: drop-shadow(0 0 8px #00f5ff); animation-delay: 0.5s;">⚡</div>
+            <div class="trophy-rank" style="color: #00f5ff; text-shadow: 0 0 5px #00f5ff;">RANK: S</div>
+            <div class="trophy-name">FULL-STACK</div>
+            <div class="trophy-desc">Architect</div>
+          </div>
+
+          <!-- Trophy 3 -->
+          <div class="trophy-card">
+            <span class="badge-unlocked">UNLOCKED</span>
+            <div class="trophy-icon" style="filter: drop-shadow(0 0 8px #f472b6); animation-delay: 1s;">👾</div>
+            <div class="trophy-rank" style="color: #f472b6; text-shadow: 0 0 5px #f472b6;">RANK: A+</div>
+            <div class="trophy-name">PIXEL MASTER</div>
+            <div class="trophy-desc">UI/UX Craft</div>
+          </div>
+
+          <!-- Trophy 4 -->
+          <div class="trophy-card">
+            <span class="badge-unlocked">UNLOCKED</span>
+            <div class="trophy-icon" style="filter: drop-shadow(0 0 8px #c084fc); animation-delay: 1.5s;">🛡️</div>
+            <div class="trophy-rank" style="color: #c084fc; text-shadow: 0 0 5px #c084fc;">RANK: S</div>
+            <div class="trophy-name">CORE REACTOR</div>
+            <div class="trophy-desc">Backend Engine</div>
+          </div>
+
+          <!-- Trophy 5 -->
+          <div class="trophy-card">
+            <span class="badge-unlocked">UNLOCKED</span>
+            <div class="trophy-icon" style="filter: drop-shadow(0 0 8px #38bdf8); animation-delay: 2s;">🪐</div>
+            <div class="trophy-rank" style="color: #38bdf8; text-shadow: 0 0 5px #38bdf8;">RANK: A+</div>
+            <div class="trophy-name">GIT VOYAGER</div>
+            <div class="trophy-desc">Commit Hero</div>
+          </div>
+
+          <!-- Trophy 6 -->
+          <div class="trophy-card">
+            <span class="badge-unlocked">UNLOCKED</span>
+            <div class="trophy-icon" style="filter: drop-shadow(0 0 8px #fbbf24); animation-delay: 2.5s;">🌟</div>
+            <div class="trophy-rank">RANK: MAX</div>
+            <div class="trophy-name">COSMIC HERO</div>
+            <div class="trophy-desc">Perpetual Level 99</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>

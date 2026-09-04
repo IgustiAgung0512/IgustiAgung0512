@@ -59,19 +59,13 @@
 
 <br/>
 
-<!-- ==================== ARCADE TROPHIES ==================== -->
-### 🏆 `[ ARCADE UNLOCKED ACHIEVEMENTS // TROPHY SHELF ]`
-<a href="https://github.com/IgustiAgung0512">
-  <img src="https://github-profile-trophy.vercel.app/?username=IgustiAgung0512&theme=radical&no-frame=true&no-bg=true&margin_w=10&margin_h=10&column=6" alt="Trophies" width="95%"/>
-</a>
+<!-- ==================== ARCADE TROPHIES (PERMANENT ASSET) ==================== -->
+<img src="./assets/arcade-trophies.svg" width="100%" alt="Arcade Unlocked Trophies" />
 
 <br/><br/>
 
-<!-- ==================== GALAXY RADAR FREQUENCY ==================== -->
-### 🌌 `[ COSMIC RADAR // ACTIVITY FREQUENCY GRAPH ]`
-<a href="https://github.com/IgustiAgung0512">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=IgustiAgung0512&bg_color=060515&color=00F5FF&line=A855F7&point=EC4899&area=true&hide_border=true&custom_title=🎮%20COSMIC%20ACTIVITY%20RADAR" alt="Activity Graph" width="98%"/>
-</a>
+<!-- ==================== GALAXY RADAR FREQUENCY (PERMANENT ASSET) ==================== -->
+<img src="./assets/cosmic-radar-graph.svg" width="100%" alt="Cosmic Activity Radar" />
 
 </div>
 
@@ -129,31 +123,12 @@
   <img src="./assets/star-divider.svg" width="100%" alt="Cosmic Divider" />
 </div>
 
-<!-- ==================== STARFLEET TELEMETRY & STATS ==================== -->
+<!-- ==================== STARFLEET TELEMETRY & STATS (PERMANENT ASSET) ==================== -->
 <div align="center">
 
 ## 📊 `[ DEEP SPACE METRICS // STARFLEET TELEMETRY ]`
 
-<table align="center" border="0" style="background-color: transparent;">
-  <tr>
-    <td align="center" valign="middle">
-      <a href="https://github.com/IgustiAgung0512">
-        <img src="https://github-readme-stats.vercel.app/api?username=IgustiAgung0512&show_icons=true&locale=en&theme=radical&bg_color=060515&title_color=00F5FF&text_color=E2E8F0&icon_color=C084FC&border_color=00F5FF&hide_border=false&rank_icon=github" alt="GitHub Stats" height="195" />
-      </a>
-    </td>
-    <td align="center" valign="middle">
-      <a href="https://github.com/IgustiAgung0512">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=IgustiAgung0512&layout=compact&theme=radical&bg_color=060515&title_color=00F5FF&text_color=E2E8F0&border_color=00F5FF&hide_border=false" alt="Top Languages" height="195" />
-      </a>
-    </td>
-  </tr>
-</table>
-
-<br/>
-
-<a href="https://github.com/IgustiAgung0512">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=IgustiAgung0512&theme=radical&background=060515&stroke=00F5FF&ring=00F5FF&fire=F472B6&currStreakLabel=00F5FF&sideLabels=E2E8F0&dates=94A3B8" alt="GitHub Streak Stats" width="85%"/>
-</a>
+<img src="./assets/galaxy-stats-metrics.svg" width="100%" alt="Starfleet Telemetry and Languages" />
 
 </div>
 
