@@ -1,0 +1,65 @@
+<svg fill="none" viewBox="0 0 1000 160" width="100%" height="160" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        .footer-container {
+          position: relative;
+          width: 100%;
+          height: 160px;
+          background: radial-gradient(ellipse at top, #1B2735 0%, #060515 100%);
+          border-radius: 16px;
+          overflow: hidden;
+          border: 1px solid rgba(0, 245, 255, 0.3);
+          box-shadow: 0 0 25px rgba(138, 43, 226, 0.25);
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          font-family: 'Orbitron', -apple-system, monospace;
+          color: #fff;
+          text-align: center;
+        }
+
+        .star {
+          position: absolute;
+          background: #fff;
+          border-radius: 50%;
+          animation: twinkle var(--duration) ease-in-out infinite;
+        }
+        @keyframes twinkle {
+          0%, 100% { opacity: 0.2; transform: scale(0.8); }
+          50% { opacity: 1; transform: scale(1.3); box-shadow: 0 0 8px #00f5ff; }
+        }
+
+        .footer-text {
+          font-size: 15px;
+          font-weight: 700;
+          letter-spacing: 2px;
+          background: linear-gradient(90deg, #00f5ff, #c084fc, #f472b6);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          margin-bottom: 6px;
+        }
+
+        .footer-sub {
+          font-size: 12px;
+          color: #94a3b8;
+          letter-spacing: 1px;
+        }
+      </style>
+
+      <div class="footer-container">
+        <!-- Stars -->
+        <div class="star" style="top: 20%; left: 10%; width: 3px; height: 3px; --duration: 2.5s;"></div>
+        <div class="star" style="top: 70%; left: 18%; width: 2px; height: 2px; --duration: 3.2s;"></div>
+        <div class="star" style="top: 30%; left: 40%; width: 3px; height: 3px; --duration: 1.9s;"></div>
+        <div class="star" style="top: 80%; left: 60%; width: 2px; height: 2px; --duration: 2.8s;"></div>
+        <div class="star" style="top: 25%; left: 85%; width: 4px; height: 4px; --duration: 3.5s;"></div>
+        <div class="star" style="top: 65%; left: 90%; width: 2px; height: 2px; --duration: 2.2s;"></div>
+
+        <div class="footer-text">✨ THANK YOU FOR EXPLORING MY CODE GALAXY ✨</div>
+        <div class="footer-sub">🛸 Designed with Cosmic Energy, Pixel Passion &amp; Full-Stack Power 🪐</div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>
